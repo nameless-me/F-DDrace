@@ -39,7 +39,7 @@ CShop::CShop(CGameContext *pGameServer, int Type) : CHouse(pGameServer, Type)
 		AddItem("ITEM_NULL", 1, 1000, TIME_FOREVER, "A null item that does nothing but send a chat message.", false, 1);
 		AddItem("Shotgun", 1, 1000, TIME_DEATH, "You will have shotgun till you die.");
 		AddItem("Grenade", 2, 1000, TIME_DEATH, "You will have grenade till you die.");
-		AddItem("Rifle", 3, 1000, TIME_DEATH, "You will have rifle till you die.");
+		AddItem("Rifle", 4, 1000, TIME_DEATH, "You will have rifle till you die.");
 		static char aaBuf[NUM_POLICE_LEVELS][32];
 		for (int i = 0; i < NUM_POLICE_LEVELS; i++)
 		{
